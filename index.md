@@ -4,11 +4,11 @@ yet but you can open the lookup tool and enter a word in chinese there,
 being sure to select Chinese from the select language dropdown.
 
 Currently I think only multi-character words are working though. Some random words
-that produce results (copy and paste into the lookup box):
+that produce results (copy and paste into the lookup box):<br/>
 
-可悲
-難道
-耐久力
+可悲<br/>
+難道<br/>
+耐久力<br/>
 </p>
 <p lang="lat" class="alpheios-enabled">
 Arma virumque canō, Trōiae quī prīmus ab ōrīs<br/>
