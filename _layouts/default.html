@@ -28,7 +28,7 @@
 
         window.AlpheiosEmbed.importDependencies({ 
           mode: 'custom',
-          libs: { components: "dist/lib/alpheios-components.min.js" }
+          libs: { components: "./lib/alpheios-components.min.js" }
         }).then(Embedded => {
           new Embedded({clientId: 'balmas-gh-demo', authEnv: null }).activate();
         }).catch(e => {
