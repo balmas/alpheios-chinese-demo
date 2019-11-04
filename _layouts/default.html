@@ -18,7 +18,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.css"/>
+    <link rel="stylesheet" href="dist/lib/style/style-components.css"/>
 
   </head>
   <body>
@@ -27,7 +27,8 @@
       import ("{{'dist/alpheios-embedded.min.js' | relative_url}}").then(embedLib => {
 
         window.AlpheiosEmbed.importDependencies({ 
-          mode: 'cdn'
+          mode: 'custom',
+          libs: { components: "dist/lib/alpheios-components.min.js" }
         }).then(Embedded => {
           new Embedded({clientId: 'balmas-gh-demo', authEnv: null }).activate();
         }).catch(e => {
